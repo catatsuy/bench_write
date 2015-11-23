@@ -1,3 +1,3 @@
 all:
-	rm tmp tmptmp
+	rm -f tmp tmptmp
 	go test -benchmem -bench .
